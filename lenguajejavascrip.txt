@@ -1,0 +1,31 @@
+<script>
+console.log("Hola Mundo :)");
+</script>
+//variables//
+<script>
+var miNombre="Jose Gabriel Aguirre Sanchez" //aqui cree un valor a miNombre//
+console.log(miNombre);
+miNombre="Cristiano Ronaldo"  //aqui cambie el valor de miNombre//
+</script>
+//operador de asignacion//
+<script>
+var a;  //aqui cree un undefined//
+var b=420
+console.log(a); //undefined//
+console.log(b); //420//
+a=10
+ </script>
+//asignar el valor de una variable a otra variable//
+<script>
+var a=13;
+var b=a;
+console.log(a)  //13//
+console.log(b)  //13//
+</script>
+<script>
+var a=5;
+var b;
+console.log(b)  //undefined//
+b=a
+console.log(b);  //5//
+</script>
