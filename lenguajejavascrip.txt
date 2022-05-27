@@ -1,13 +1,17 @@
 <script>
 console.log("Hola Mundo :)");
 </script>
+
 //variables//
+
 <script>
 var miNombre="Jose Gabriel Aguirre Sanchez" //aqui cree un valor a miNombre//
 console.log(miNombre);
 miNombre="Cristiano Ronaldo"  //aqui cambie el valor de miNombre//
 </script>
+
 //operador de asignacion//
+
 <script>
 var a;  //aqui cree un undefined//
 var b=420
@@ -15,13 +19,18 @@ console.log(a); //undefined//
 console.log(b); //420//
 a=10
  </script>
+
 //asignar el valor de una variable a otra variable//
+
 <script>
 var a=13;
 var b=a;
 console.log(a)  //13//
 console.log(b)  //13//
 </script>
+
+//VARIABLES INICIALIZADAS Y VARIABLES NO INICIALIZADAS//
+
 <script>
 var a=5;
 var b;
@@ -29,3 +38,41 @@ console.log(b)  //undefined//
 b=a
 console.log(b);  //5//
 </script>
+
+//OPERACIONES ARITMETICAS//
+
+</script>
+var suma = 7 + 12;
+
+/ressta/
+
+var resta = 15 - 5; //positivo//
+console.log(resta);//10//
+resta = 5 - 15; //negativo//
+console.log(resta); //-15//
+resta = 15 - 15; 
+console.log(resta) //0//
+
+/multiplicacion/
+
+var producto = 5 * 3;
+console.log(producto); //15//
+producto = 9 * 0;
+console.log(producto) //0//
+producto = -5 * 6;
+console.log(producto); // -30//
+producto = -5 * -6;
+console.log(producto); //30//
+
+/division/
+
+var cociente = 20 / 2;
+ console.log(cociente); //10//
+ cociente = 17 / 31;
+ console.log(cociente); // 0.548387096//
+ cociente = 3 / 0;
+ console.log(cociente); // infinity//
+</script>
+
+//NUMEROS DECIMALES//
+
